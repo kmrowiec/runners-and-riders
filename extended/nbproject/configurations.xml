@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>course.h</itemPath>
+      <itemPath>entrant.h</itemPath>
+      <itemPath>event.h</itemPath>
+      <itemPath>med_history.h</itemPath>
+      <itemPath>node.h</itemPath>
+      <itemPath>time.h</itemPath>
+      <itemPath>track.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>data_files/courses.txt</itemPath>
+      <itemPath>data_files/cp_times_1.txt</itemPath>
+      <itemPath>data_files/cp_times_2.txt</itemPath>
+      <itemPath>data_files/cp_times_3.txt</itemPath>
+      <itemPath>data_files/cp_times_4.txt</itemPath>
+      <itemPath>data_files/cp_times_5.txt</itemPath>
+      <itemPath>data_files/entrants.txt</itemPath>
+      <itemPath>data_files/name.txt</itemPath>
+      <itemPath>data_files/name.txt~</itemPath>
+      <itemPath>data_files/nodes.txt</itemPath>
+      <itemPath>data_files/tracks.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>course.c</itemPath>
+      <itemPath>entrant.c</itemPath>
+      <itemPath>event.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>med_history.c</itemPath>
+      <itemPath>node.c</itemPath>
+      <itemPath>time.c</itemPath>
+      <itemPath>track.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
